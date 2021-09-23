@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="6dp"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="设备名"
+        android:id="@+id/device_name_tv"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        ></TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="蓝牙序号"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:id="@+id/blueTooth_id_tv"
+        ></TextView>
+    <View
+        android:layout_height="1dp"
+        android:layout_width="match_parent"
+        android:background="@color/gray_material"
+        android:layout_marginTop="5dp"></View>
+</LinearLayout>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MapActivity.BaiduMapActivity">
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_margin="15dp"
+        android:src="@drawable/ic_baseline_arrow_back_24"
+        android:backgroundTint="@color/purple_500"
+        app:rippleColor="@color/gray_material"
+        android:id="@+id/map_back_btn">
+
+    </com.google.android.material.floatingactionbutton.FloatingActionButton>
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:src="@drawable/ic_baseline_my_location_24"
+        android:backgroundTint="@color/purple_500"
+        app:rippleColor="@color/gray_material"
+        android:id="@+id/map_back_to_src_btn"
+        android:layout_below="@id/map_back_btn">
+
+    </com.google.android.material.floatingactionbutton.FloatingActionButton>
+    <com.baidu.mapapi.map.MapView
+        android:id="@+id/baidu_mapview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clickable="true" />
+</RelativeLayout>

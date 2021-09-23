@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <com.github.mikephil.charting.charts.LineChart
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:id="@+id/lineChart"></com.github.mikephil.charting.charts.LineChart>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:id="@+id/chart_xdisplay_btn"
+            android:layout_marginRight="15dp"
+            android:layout_marginLeft="15dp"
+            android:text="x"></Button>
+        <Button
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:id="@+id/chart_ydisplay_btn"
+            android:layout_marginRight="15dp"
+            android:layout_marginLeft="15dp"
+            android:text="y"></Button>
+        <Button
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/chart_zdisplay_btn"
+            android:layout_marginRight="15dp"
+            android:layout_marginLeft="15dp"
+            android:text="z"></Button>
+    </LinearLayout>
+
+</LinearLayout>
